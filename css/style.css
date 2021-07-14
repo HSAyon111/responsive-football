@@ -20,6 +20,9 @@ body{
 i{
     margin-left: 8px;
 }
+hr{
+    border: 1px solid #d1d1d1;
+}
 
 /* banner styles */
 .top-banner{
