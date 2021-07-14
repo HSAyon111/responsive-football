@@ -4,4 +4,47 @@
 /* common utilities */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* banner styles */
+.top-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: #2D25A0;
+    width: 100%;
+    height: 600px;
+
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 485px;
+}
+.heading{
+    padding-bottom: 100px;
+    padding-left: 120px;
+}
+.heading a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #E02C6D;
+    border-radius: 5px;
+    padding: 10px 24px;
+}
+.banner-title:hover{
+    transform: scale(105%);
+}
+.heading a:hover{
+    border: 3px solid #d8556b;
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+}
+.banner-image img:hover{
+    transform: scale(130%);
+    transition: transform 2s ease-in-out;
 }
